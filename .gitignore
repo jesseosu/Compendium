@@ -1,0 +1,40 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+a.out
+
+# Experiment binaries (keep sources, drop builds)
+experiments/*/build/
+experiments/lockfree-spsc-bench/bench
+experiments/io-uring-hello/hello
+experiments/syscall-latency-measure/latency
+
+# Go
+*.test
+*.prof
+/vendor/
+go.work
+go.work.sum
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs / local
+*.log
+/tmp/
