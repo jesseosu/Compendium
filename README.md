@@ -50,6 +50,12 @@ books/                   # ongoing book notes
 project-retrospectives/  # one per shipped project
 skills.md                # capability inventory (start here)
 ```
+## A note on timeline
+
+This notebook was started in August 2025 and worked on locally for
+several months before being published here. Most files were authored
+across that period and pushed publicly in 2026 so the commit history
+shows recent activity even though the underlying writing is older.
 
 ## License
 
